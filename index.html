@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografar e Descriptografar Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class ="apresentacao">
+        <section class="apresentacao__conteudo"></section>
+            <div class="container">
+                    <label class="apresentacao__conteudo__titulo" for="mensagem">Digite seu texto que deseja criptografar ou descriptografar:</label><br>
+                        <input class="apresentacao__conteudo__texto" type="text" id="mensagem" name="mensagem" maxlength="500" placeholder="Escreva aqui..." style="width: 100%;"><br>
+                            <p class="apresentacao__conteudo__texto" id="charCount">500 caracteres restantes</p>
+                            <p2 class="apresentacao__conteudo__subtitulo">Letras maiusculas e caracteres especiais não serão aceitos</p2>
+                                <button class="botoes" type="button" id="encryptBtn">Criptografar</button>
+                                <button class="botoes" type="button" id="decryptBtn">Descriptografar</button>
+            </div>
+        </section>
+        <div id="output" class="output"></div>
+    </main>
+
+    <script src="app.js"></script>
+
+    <footer class="rodape">
+        <p>© 2024 Gabriel Araujo.</p>
+    </footer>
+</body>
+</html>
